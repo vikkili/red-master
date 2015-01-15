@@ -1,0 +1,151 @@
+@import "lesshat.less";
+
+/* Common styles & typography */
+body.preloadable {
+  .opacity(0);
+}
+
+/* Preloader */
+.preloader .logo,
+.preloader .bar,
+.preloader .percent,
+.preloader .top,
+.preloader .bottom {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(0.5s);
+}
+.preloader .bar .value {
+  .transition-duration(0.25s);
+}
+
+/* Navigation */
+.nav li > a {
+  .transition-duration(0.35s);
+}
+
+/* Slider arrows */
+.arrow-left,
+.arrow-right {
+  .transition-duration(0.35s);
+}
+
+/* Hero slider */
+#hero .bullets a {
+  .transition-duration(0.35s);
+}
+#hero .slide .heading,
+#hero .slide .box,
+#hero .slide .text,
+#hero .slide .button {
+  .transition-duration(1s);
+  .translateY(-35px);
+  .opacity(0);
+}
+#hero .slide.animate .heading,
+#hero .slide.animate .box,
+#hero .slide.animate .text,
+#hero .slide.animate .button {
+  .translateY(0);
+  .opacity(1);
+}
+#hero .slide.animate .box {
+  .transition-delay(0.5s);
+}
+#hero .slide.animate .text {
+  .transition-delay(1s);
+}
+#hero .slide.animate .button {
+  .transition-delay(1.5s);
+}
+
+/* Featured portfolio */
+.featured .overlay {
+  .transition-duration(0.35s);
+  .opacity(0);
+}
+.featured:hover .overlay {
+  .opacity(0.9);
+}
+
+/* Services */
+.service .circle {
+  .box-shadow(~"inset #dfdfdf 0 0 0 1px");
+}
+.service .circle,
+.service .circle .fa,
+.service .popup {
+  .transition-duration(0.35s);
+}
+.service .circle:before {
+  .transition-duration(0.35s);
+  .scale(0);
+}
+.service:hover .circle:before {
+  .scale(1);
+}
+
+/* Team */
+.team,
+.team .occupation,
+.team p {
+  .transition-duration(0.35s);
+}
+
+/* Social */
+.social a {
+  .transition-duration(0.35s);
+}
+
+/* Portfolio */
+.portfolio .overlay {
+  .transition-duration(0.35s);
+  .opacity(0);
+}
+.portfolio:hover .overlay {
+  .opacity(1);
+}
+.portfolio .overlay .content {
+  .transition-duration(0.35s);
+  .translateY(30px);
+}
+.portfolio:hover .overlay .content {
+  .translateY(0);
+}
+
+/* Animated styles */
+.animated-out,
+.animated-in {
+  .transition-timing-function(~"cubic-bezier(0.13, 0.71, 0.30, 0.94)");
+  .transition-duration(1s);
+}
+.animated-out {
+  .transform(~"translateY(35px)");
+  .opacity(0);
+}
+.animated-in {
+  .transform(~"translateY(0)");
+  .opacity(1);
+}
+
+.mfp-fade.mfp-bg,
+.mfp-fade.mfp-wrap .mfp-content {
+  .opacity(0);
+  .transition-duration(0.5s);
+}
+.mfp-fade.mfp-bg.mfp-removing,
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  .opacity(0);
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  .opacity(0.8);
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  .opacity(1);
+}
+
+/* Blog section */
+.tags li a,
+.pages a,
+.share-social a {
+  .transition-duration(0.35s);
+}

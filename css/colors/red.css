@@ -1,0 +1,125 @@
+/* Define the base color */
+/* Common styles & typography */
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #f2333a;
+}
+.section-heading {
+  border-color: #f2333a;
+}
+.button,
+.tp-button {
+  background-color: #f2333a;
+}
+.bullets .active a,
+.arrow-left:hover,
+.arrow-right:hover {
+  background-color: #f2333a;
+}
+/* Navigation */
+.navbar-toggle .icon-bar {
+  background-color: #f2333a;
+}
+.nav li > a:hover,
+.nav li.active > a:hover,
+.nav li.active > a {
+  color: #f2333a;
+}
+/* Featured portfolio */
+.featured .overlay {
+  background-color: #f2333a;
+}
+.full-portfolio .fa {
+  color: #f2333a;
+}
+/* Feature box */
+.feature-box > .fa {
+  color: #f2333a;
+}
+/* Services */
+.service:hover .circle {
+  -webkit-box-shadow: inset #f2333a 0 0 0 5px;
+  -moz-box-shadow: inset #f2333a 0 0 0 5px;
+  -ms-box-shadow: inset #f2333a 0 0 0 5px;
+  -o-box-shadow: inset #f2333a 0 0 0 5px;
+  box-shadow: inset #f2333a 0 0 0 5px;
+}
+.service .circle .fa {
+  color: #f2333a;
+}
+.service .circle:before {
+  background-color: #f2333a;
+}
+/* Testimonials */
+.testimonial .info em {
+  color: #f2333a;
+}
+/* Facts */
+.facts .count {
+  color: #f2333a;
+}
+/* Team */
+.team:hover {
+  background: #f2333a;
+}
+.social a:hover {
+  color: #f2333a;
+}
+/* Skill */
+.skill .bar .value {
+  background: #f2333a;
+}
+/* Portfolio */
+.portfolio .overlay {
+  background: rgba(242, 51, 58, 0.95);
+}
+.portfolio-filter .active a {
+  background: #f2333a;
+}
+/* Twitter icon */
+.twitter-icon:after {
+  background: #f2333a;
+}
+/* Contact section */
+.address .fa {
+  color: #f2333a;
+}
+/* Footer */
+footer {
+  background: #f2333a;
+}
+/* Slider revolution */
+.tp-leftarrow.default:hover,
+.tp-rightarrow.default:hover,
+.tp-bullets .bullet.selected {
+  background-color: #f2333a !important;
+}
+/* Blog section */
+.color,
+.search button,
+.side-title,
+.article .quote:before,
+.article .quote:after {
+  color: #f2333a;
+}
+.tags li a:focus,
+.tags li a:hover,
+.tags li a:active {
+  background-color: #f2333a;
+  border-color: #f2333a;
+}
+.pages li.active a,
+.pages a:hover,
+.pages a:active,
+.pages a:focus {
+  border-color: #f2333a;
+  background-color: #f2333a;
+}
+.share-social a:hover,
+.share-social a:active,
+.share-social a:focus {
+  background-color: #f2333a;
+  border-color: #f2333a;
+}
